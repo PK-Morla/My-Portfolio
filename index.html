@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Pavan K Morla</title>
+
+  <!-- UNICONS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">MPK</p>
+        <span>.</span>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list"><a href="#home" class="nav-link active-link">Home</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#about" class="nav-link">About</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#projects" class="nav-link">Experience</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="#contact" class="nav-link">Contact</a><div class="circle"></div></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <a href="Resume.pdf" target="_blank"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="wrapper">
+      <!-- HOME -->
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <div class="featured-text-card"><span>Pavan K Morla</span></div>
+          <div class="featured-name"><p>I'm <span class="typedText"></span></p></div>
+          <div class="featured-text-info">
+            <p>Full-stack .NET developer with 5 years of experience designing and delivering secure, high-performance applications across web, cloud, and enterprise environments.</p>
+          </div>
+          <div class="featured-text-btn">
+            <a href="#contact" class="nav-link"><button class="btn blue-btn">Contact</button></a>
+            <a href="Resume.pdf" target="_blank"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+          </div>
+          <div class="social_icons">
+            <a href="https://www.instagram.com/morlapavankumar07" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+            <a href="https://www.linkedin.com/in/pavan-k-morla-s24101998a1" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+            <a href="mailto:morlapavankumar07@gmail.com" target="_blank"><div class="icon"><i class="uil uil-envelope"></i></div></a>
+            <a href="https://github.com/PK-Morla" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+          </div>
+        </div>
+        <div class="featured-image">
+          <div class="image"><img src="assets/images/avatar.png" alt="avatar" /></div>
+        </div>
+        <div class="scroll-icon-box">
+          <a href="#about" class="scroll-btn"><i class="uil uil-mouse-alt"></i><p>Scroll Down</p></a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="top-header"><h1>About Me</h1></div>
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <h3>My introduction</h3>
+              <p>I’m a passionate full-stack .NET developer with 5 years of experience building high-performance, scalable web applications. I specialize in C#, .NET Core, ASP.NET MVC, Angular, React, SQL Server, and Azure. I’ve delivered secure, maintainable solutions using Agile methodologies, Docker, Kubernetes, and CI/CD practices.</p>
+              <div class="about-btn">
+                <a href="Resume.pdf" target="_blank"><button class="btn">Download CV <i class="uil uil-import"></i></button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skills-box">
+              <div class="skills-header"><h3>Frontend</h3></div>
+              <div class="skills-list">
+                <span>HTML5 & CSS3</span><span>Angular 14</span><span>React.JS</span><span>TypeScript</span><span>Bootstrap</span><span>Telerik UI</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <div class="skills-header"><h3>Backend</h3></div>
+              <div class="skills-list">
+                <span>.NET Core & ASP.NET MVC</span><span>C#</span><span>RESTful APIs</span><span>Microservices</span><span>Azure Functions</span><span>Logic Apps</span><span>Entity Framework</span><span>CI/CD with Azure DevOps</span><span>GitHub</span>
+              </div>
+            </div>
+            <div class="skills-box">
+              <div class="skills-header"><h3>Databases</h3></div>
+              <div class="skills-list">
+                <span>SQL Server</span><span>PostgreSQL</span><span>MongoDB</span><span>Cosmos DB</span><span>Stored Procedures</span><span>Query Tuning</span><span>Docker</span><span>Kubernetes</span><span>NUnit / xUnit</span><span>API Testing</span><span>Postman / Swagger</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section" id="projects">
+        <div class="top-header"><h1>Experience</h1></div>
+        <div class="project-container">
+          <div class="project-box"><i class="uil uil-briefcase-alt"></i><h3>Completed</h3><label>2+ Cloud Certifications</label></div>
+          <div class="project-box"><i class="uil uil-users-alt"></i><h3>Work Clients</h3><label>Experience working in 2 countries</label></div>
+          <div class="project-box"><i class="uil uil-award"></i><h3>Experience</h3><label>5+ Years in the field</label></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="top-header">
+          <h1>Get in touch</h1>
+          <span>Do you have a job for me in your mind? Contact me here.</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+              <p><i class="uil uil-envelope"></i> Email: morlapavankumar07@gmail.com</p>
+              <p><i class="uil uil-phone"></i> Tel: +1 475 241 5947</p>
+            </div>
+          </div>
+          <div class="col">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="4f15c068-b1e9-40e3-bd87-b81daf3bc91c" />
+              <div class="form-inputs">
+                <input type="text" class="input-field" name="name" placeholder="Name" required />
+                <input type="email" class="input-field" name="email" placeholder="Email" required />
+              </div>
+              <div class="text-area">
+                <textarea name="message" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-button">
+                <button type="submit" class="btn">Submit <i class="uil uil-message"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="top-footer"><p>Pavan K Morla .</p></div>
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer_menu_list"><a href="#home">Home</a></li>
+          <li class="footer_menu_list"><a href="#about">About</a></li>
+          <li class="footer_menu_list"><a href="#projects">Experience</a></li>
+          <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social-icons">
+        <a href="https://www.instagram.com/morlapavankumar07" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+        <a href="https://www.linkedin.com/in/pavan-k-morla-s24101998a1" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+        <a href="mailto:morlapavankumar07@gmail.com" target="_blank"><div class="icon"><i class="uil uil-envelope"></i></div></a>
+        <a href="https://github.com/PK-Morla" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Pavan K Morla</a> - All rights reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
